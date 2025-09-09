@@ -2,13 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the balistica package.
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: balistica\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
 "PO-Revision-Date: 2025-09-09 12:16+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "balistica/master/ka/>\n"
 "Language: ka\n"
@@ -49,7 +51,7 @@ msgstr "© 2012-2018 Steven Oliver, ყველა უფლება დაც
 
 #: src/DragBox.vala:123
 msgid "Range"
-msgstr ""
+msgstr "დიაპაზონი"
 
 #: src/DragBox.vala:124
 msgid "Drop Inches"
