@@ -2,19 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the balistica package.
 # 김인수 <simmon@nplob.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: balistica\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-20 12:51+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"balistica/master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/BalisticaApplication.vala:114
 msgid "Drag"
@@ -47,7 +51,7 @@ msgstr ""
 
 #: src/DragBox.vala:123
 msgid "Range"
-msgstr ""
+msgstr "범위"
 
 #: src/DragBox.vala:124
 msgid "Drop Inches"
@@ -75,7 +79,7 @@ msgstr ""
 
 #: src/DragBox.vala:130
 msgid "Time"
-msgstr ""
+msgstr "시간"
 
 #. Name used to store the calculation
 #. Ballistic cofficient
@@ -123,11 +127,11 @@ msgstr ""
 
 #: src/DragBox.vala:320
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: src/DragBox.vala:322
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: src/DragBox.vala:355
 msgid "Failed to overwrite existing file"
@@ -230,7 +234,7 @@ msgstr ""
 
 #: src/LogViewerDialog.vala:50
 msgid "Date/Time"
-msgstr ""
+msgstr "날짜와 시간"
 
 #: src/LogViewerDialog.vala:51
 msgid "Log Level"
@@ -281,15 +285,15 @@ msgstr ""
 
 #: src/PreferencesWindow.vala:70
 msgid "_Cancel"
-msgstr ""
+msgstr "취소(_C)"
 
 #: src/PreferencesWindow.vala:71
 msgid "_Select"
-msgstr ""
+msgstr "선택(_S)"
 
 #: ui/drag.glade:64
 msgid "Name:"
-msgstr ""
+msgstr "이름:"
 
 #: ui/drag.glade:104
 msgid "Solve"
@@ -297,11 +301,11 @@ msgstr ""
 
 #: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
 msgid "Reset"
-msgstr ""
+msgstr "재설정"
 
 #: ui/drag.glade:133
 msgid "Example"
-msgstr ""
+msgstr "예제:"
 
 #: ui/drag.glade:199
 msgid "Projectile Weight (grains)"
@@ -385,11 +389,11 @@ msgstr ""
 
 #: ui/logviewer.glade:14
 msgid "Refresh"
-msgstr ""
+msgstr "새로고침"
 
 #: ui/logviewer.glade:23
 msgid "Clear"
-msgstr ""
+msgstr "비우기"
 
 #: ui/pbr.glade:34
 msgid "Point Blank Range (PBR)"
@@ -409,7 +413,7 @@ msgstr ""
 
 #: ui/preferences.glade:33 ui/menu.ui:7
 msgid "Preferences"
-msgstr ""
+msgstr "환경설정"
 
 #: ui/preferences.glade:54
 msgid "Directories"
@@ -421,7 +425,7 @@ msgstr ""
 
 #: ui/preferences.glade:91
 msgid "Browse"
-msgstr ""
+msgstr "검색"
 
 #: ui/stability.glade:107 ui/twist.glade:102 ui/twist.glade:249
 msgid "Diameter"
@@ -469,15 +473,15 @@ msgstr ""
 
 #: ui/menu.ui:17
 msgid "Help"
-msgstr ""
+msgstr "도움말"
 
 #: ui/menu.ui:22
 msgid "About"
-msgstr ""
+msgstr "정보"
 
 #: ui/menu.ui:26
 msgid "Quit"
-msgstr ""
+msgstr "종료"
 
 #: data/balistica.appdata.xml.in:7 data/balistica.desktop.in:8
 msgid "balistica"
