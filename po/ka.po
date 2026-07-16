@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the balistica package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025, 2026.
 msgid ""
 msgstr ""
@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
 "PO-Revision-Date: 2026-01-18 03:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "balistica/master/ka/>\n"
 "Language: ka\n"
@@ -106,11 +105,11 @@ msgstr ""
 
 #: src/DragBox.vala:245
 msgid "Projectile Weight must be a positive value greater than 0"
-msgstr "საწყისი სიჩქარე დადებითი და ნულზე მეტი უნდა იყოს"
+msgstr "ჭურვის წონა დადებითი და ნულზე მეტი უნდა იყოს"
 
 #: src/DragBox.vala:250
 msgid "Zero Range must be a positive value greater than 0"
-msgstr ""
+msgstr "ნულოვანი შუალედი დადებით და ნულზე მეტი უნდა იყოს"
 
 #: src/DragBox.vala:280
 msgid "Error creating solution results"
@@ -123,7 +122,7 @@ msgstr ""
 #. Create a save as dialog
 #: src/DragBox.vala:317
 msgid "Save As"
-msgstr ""
+msgstr "შენახვა, როგორც"
 
 #: src/DragBox.vala:320
 msgid "Cancel"
@@ -198,23 +197,23 @@ msgstr ""
 
 #: src/DragBox.vala:391
 msgid "<b>Range (yards)</b>"
-msgstr ""
+msgstr "<b>შუალედი (იარდი)</b>"
 
 #: src/DragBox.vala:392
 msgid "<b>Drop (inches)</b>"
-msgstr ""
+msgstr "<b>დაგდება (დუიმი)</b>"
 
 #: src/DragBox.vala:393
 msgid "<b>Drop (MOA)</b>"
-msgstr ""
+msgstr "<b>დაგდება (MOA)</b>"
 
 #: src/DragBox.vala:394
 msgid "<b>Velocity (ft/s)</b>"
-msgstr ""
+msgstr "<b>სიჩქარე (ფტ/წმ)</b>"
 
 #: src/DragBox.vala:395
 msgid "<b>Energy (ft-lb)</b>"
-msgstr ""
+msgstr "<b>ენერგია (ფტ-გირვანქა)</b>"
 
 #: src/DragBox.vala:396
 msgid "<b>Winddrift (inches)</b>"
@@ -234,7 +233,7 @@ msgstr ""
 
 #: src/LogViewerDialog.vala:50
 msgid "Date/Time"
-msgstr ""
+msgstr "თარიღი/დრო"
 
 #: src/LogViewerDialog.vala:51
 msgid "Log Level"
@@ -297,7 +296,7 @@ msgstr "სახელი:"
 
 #: ui/drag.glade:104
 msgid "Solve"
-msgstr ""
+msgstr "ამოხსნა"
 
 #: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
 msgid "Reset"
@@ -353,7 +352,7 @@ msgstr ""
 
 #: ui/drag.glade:472
 msgid "Temperature (F)"
-msgstr ""
+msgstr "ტემპერატურა (F)"
 
 #: ui/drag.glade:484
 msgid "Barometric Pressure (Hg)"
@@ -401,7 +400,7 @@ msgstr ""
 
 #: ui/pbr.glade:40 ui/stability.glade:213 ui/twist.glade:383
 msgid "Calculate"
-msgstr ""
+msgstr "გამოთვლა"
 
 #: ui/pbr.glade:117
 msgid "Vital Zone Size (inches)"
@@ -417,7 +416,7 @@ msgstr "მორგება"
 
 #: ui/preferences.glade:54
 msgid "Directories"
-msgstr ""
+msgstr "საქაღალდეები"
 
 #: ui/preferences.glade:70
 msgid "Save Directory"
@@ -429,15 +428,15 @@ msgstr "დათვალიერება"
 
 #: ui/stability.glade:107 ui/twist.glade:102 ui/twist.glade:249
 msgid "Diameter"
-msgstr ""
+msgstr "დიამეტრი"
 
 #: ui/stability.glade:119 ui/twist.glade:115 ui/twist.glade:261
 msgid "Length"
-msgstr ""
+msgstr "სიგრძე"
 
 #: ui/stability.glade:131 ui/twist.glade:273
 msgid "Mass"
-msgstr ""
+msgstr "მასა"
 
 #: ui/stability.glade:143 ui/twist.glade:285
 msgid "Safe Value"
@@ -461,11 +460,11 @@ msgstr ""
 
 #: ui/twist.glade:355
 msgid "Greenhill"
-msgstr ""
+msgstr "Greenhill"
 
 #: ui/twist.glade:369
 msgid "Miller"
-msgstr ""
+msgstr "Miller"
 
 #: ui/menu.ui:11
 msgid "View Log"
@@ -485,7 +484,7 @@ msgstr "გასვლა"
 
 #: data/balistica.appdata.xml.in:7 data/balistica.desktop.in:8
 msgid "balistica"
-msgstr ""
+msgstr "balistica"
 
 #: data/balistica.appdata.xml.in:8 data/balistica.desktop.in:4
 msgid "External ballistics software"
@@ -517,7 +516,7 @@ msgstr ""
 
 #: data/balistica.desktop.in:3
 msgid "balística"
-msgstr ""
+msgstr "balística"
 
 #: data/balistica.desktop.in:6
 msgid "External ballistics calculator"
@@ -525,4 +524,4 @@ msgstr ""
 
 #: data/balistica.desktop.in:7
 msgid "ballistics"
-msgstr ""
+msgstr "ბალისტიკა"
