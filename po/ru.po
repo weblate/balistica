@@ -2,83 +2,84 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the balistica package.
 # Olga Smirnova <mistresssilvara@hotmail.com>, 2022.
+# Andrei Stepanov <adem4ik@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: balistica\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
-"PO-Revision-Date: 2022-10-13 06:19+0000\n"
-"Last-Translator: Olga Smirnova <mistresssilvara@hotmail.com>\n"
+"PO-Revision-Date: 2026-07-16 17:18+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "balistica/master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: src/BalisticaApplication.vala:114
 msgid "Drag"
-msgstr ""
+msgstr "Сопротивление"
 
 #: src/BalisticaApplication.vala:115
 msgid "Twist"
-msgstr ""
+msgstr "Крутка"
 
 #: src/BalisticaApplication.vala:116
 msgid "Stability"
-msgstr ""
+msgstr "Стабильность"
 
 #. The user may have already created the directory, so don't throw EXISTS.
 #: src/BalisticaApplication.vala:132
 msgid "Failed to create XDG directory "
-msgstr ""
+msgstr "Не удалось создать каталог XDG "
 
 #: src/BalisticaApplication.vala:181
 msgid "Error showing help"
-msgstr ""
+msgstr "Ошибка при отображении справки"
 
 #: src/BalisticaApplication.vala:201
 msgid "An open source external ballistics calculator."
-msgstr ""
+msgstr "Калькулятор внешней баллистики с открытым исходным кодом."
 
 #: src/BalisticaApplication.vala:202
 msgid "Copyright © 2012-2018 Steven Oliver"
-msgstr ""
+msgstr "Авторское право © 2012-2018 Стивен Оливер"
 
 #: src/DragBox.vala:123
 msgid "Range"
-msgstr ""
+msgstr "Дальность"
 
 #: src/DragBox.vala:124
 msgid "Drop Inches"
-msgstr ""
+msgstr "Снижение (дюймы)"
 
 #: src/DragBox.vala:125
 msgid "Drop MOA"
-msgstr ""
+msgstr "Снижение (MOA)"
 
 #: src/DragBox.vala:126
 msgid "Velocity"
-msgstr ""
+msgstr "Скорость"
 
 #: src/DragBox.vala:127
 msgid "Energy"
-msgstr ""
+msgstr "Энергия"
 
 #: src/DragBox.vala:128
 msgid "Drift"
-msgstr ""
+msgstr "Снос"
 
 #: src/DragBox.vala:129
 msgid "Windage MOA"
-msgstr ""
+msgstr "Поправка на ветер (MOA)"
 
 #: src/DragBox.vala:130
 msgid "Time"
-msgstr ""
+msgstr "Время"
 
 #. Name used to store the calculation
 #. Ballistic cofficient
@@ -93,178 +94,179 @@ msgstr ""
 #. to be zero
 #: src/DragBox.vala:230
 msgid "Drag Coefficient must be a positive value greater than 0"
-msgstr ""
+msgstr "Коэффициент сопротивления должен быть положительным числом больше 0"
 
 #: src/DragBox.vala:235
 msgid "Initial Velocity must be a positive value greater than 0"
-msgstr ""
+msgstr "Начальная скорость должна быть положительным числом больше 0"
 
 #: src/DragBox.vala:240
 msgid "Sight Height over Bore must be a positive value greater than 0"
 msgstr ""
+"Высота прицела над каналом ствола должна быть положительным числом больше 0"
 
 #: src/DragBox.vala:245
 msgid "Projectile Weight must be a positive value greater than 0"
-msgstr ""
+msgstr "Вес снаряда должен быть положительным числом больше 0"
 
 #: src/DragBox.vala:250
 msgid "Zero Range must be a positive value greater than 0"
-msgstr ""
+msgstr "Дальность пристрелки должна быть положительным числом больше 0"
 
 #: src/DragBox.vala:280
 msgid "Error creating solution results"
-msgstr ""
+msgstr "Ошибка при создании результатов решения"
 
 #: src/DragBox.vala:312
 msgid "Cannot export an empty drag solution"
-msgstr ""
+msgstr "Невозможно экспортировать пустое решение по сопротивлению"
 
 #. Create a save as dialog
 #: src/DragBox.vala:317
 msgid "Save As"
-msgstr ""
+msgstr "Сохранить как"
 
 #: src/DragBox.vala:320
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: src/DragBox.vala:322
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: src/DragBox.vala:355
 msgid "Failed to overwrite existing file"
-msgstr ""
+msgstr "Не удалось перезаписать существующий файл"
 
 #: src/DragBox.vala:365
 msgid "Error selecting file to save as"
-msgstr ""
+msgstr "Ошибка при выборе файла для сохранения"
 
 #: src/DragBox.vala:380
 #, c-format
 msgid "<b>Drag Coefficient:</b> %.2f"
-msgstr ""
+msgstr "<b>Коэффициент сопротивления:</b> %.2f"
 
 #: src/DragBox.vala:380
 #, c-format
 msgid "<b>Projectile Weight:</b> %.2f"
-msgstr ""
+msgstr "<b>Вес снаряда:</b> %.2f"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Initial Velocity:</b> %.2f ft/s"
-msgstr ""
+msgstr "<b>Начальная скорость:</b> %.2f фут/с"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Zero Range:</b> %.2f yards"
-msgstr ""
+msgstr "<b>Дальность пристрелки:</b> %.2f ярдов"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Shooting Angle:</b> %.2f degress"
-msgstr ""
+msgstr "<b>Угол стрельбы:</b> %.2f градусов"
 
 #: src/DragBox.vala:384
 #, c-format
 msgid "<b>Wind Velocity:</b> %.2f mph"
-msgstr ""
+msgstr "<b>Скорость ветра:</b> %.2f миль/ч"
 
 #: src/DragBox.vala:384
 #, c-format
 msgid "<b>Wind Direction:</b> %.2f degress"
-msgstr ""
+msgstr "<b>Направление ветра:</b> %.2f градусов"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Altitude:</b> %.2f ft"
-msgstr ""
+msgstr "<b>Высота:</b> %.2f футов"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Barometer:</b> %2f in-Hg"
-msgstr ""
+msgstr "<b>Барометр:</b> %2f дюймов рт. ст."
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Temperature:</b> %2f F"
-msgstr ""
+msgstr "<b>Температура:</b> %2f °F"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Relative Humidity:</b> %.2F%%"
-msgstr ""
+msgstr "<b>Относительная влажность:</b> %.2F%%"
 
 #: src/DragBox.vala:391
 msgid "<b>Range (yards)</b>"
-msgstr ""
+msgstr "<b>Дальность (ярды)</b>"
 
 #: src/DragBox.vala:392
 msgid "<b>Drop (inches)</b>"
-msgstr ""
+msgstr "<b>Снижение (дюймы)</b>"
 
 #: src/DragBox.vala:393
 msgid "<b>Drop (MOA)</b>"
-msgstr ""
+msgstr "<b>Снижение (MOA)</b>"
 
 #: src/DragBox.vala:394
 msgid "<b>Velocity (ft/s)</b>"
-msgstr ""
+msgstr "<b>Скорость (фут/с)</b>"
 
 #: src/DragBox.vala:395
 msgid "<b>Energy (ft-lb)</b>"
-msgstr ""
+msgstr "<b>Энергия (фут-фунт)</b>"
 
 #: src/DragBox.vala:396
 msgid "<b>Winddrift (inches)</b>"
-msgstr ""
+msgstr "<b>Снос ветром (дюймы)</b>"
 
 #: src/DragBox.vala:397
 msgid "<b>Windage (MOA)</b>"
-msgstr ""
+msgstr "<b>Поправка на ветер (MOA)</b>"
 
 #: src/DragBox.vala:398
 msgid "<b>Time (s)</b>"
-msgstr ""
+msgstr "<b>Время (с)</b>"
 
 #: src/DragBox.vala:425
 msgid "Error creating HTML output"
-msgstr ""
+msgstr "Ошибка при создании HTML-вывода"
 
 #: src/LogViewerDialog.vala:50
 msgid "Date/Time"
-msgstr ""
+msgstr "Дата и время"
 
 #: src/LogViewerDialog.vala:51
 msgid "Log Level"
-msgstr ""
+msgstr "Уровень журнала"
 
 #: src/LogViewerDialog.vala:52
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 #: src/LogViewerDialog.vala:111
 msgid "Reading log file "
-msgstr ""
+msgstr "Чтение файла журнала "
 
 #: src/PbrDialog.vala:103
 msgid "Vital Zone size is required to calculate PBR"
-msgstr ""
+msgstr "Для расчёта PBR требуется размер убойной зоны"
 
 #: src/PbrDialog.vala:113
 #, c-format
 msgid "Near Zero: %.2f yards\n"
-msgstr ""
+msgstr "Ближний ноль: %.2f ярдов\n"
 
 #: src/PbrDialog.vala:114
 #, c-format
 msgid "Far Zero: %.2f yards\n"
-msgstr ""
+msgstr "Дальний ноль: %.2f ярдов\n"
 
 #: src/PbrDialog.vala:115
 #, c-format
 msgid "Minimum PBR: %.2f yards\n"
-msgstr ""
+msgstr "Минимальный PBR: %.2f ярдов\n"
 
 #: src/PbrDialog.vala:116
 #, c-format
@@ -272,43 +274,45 @@ msgid ""
 "Maximum PBR: %.2f yards\n"
 "\n"
 msgstr ""
+"Максимальный PBR: %.2f ярдов\n"
+"\n"
 
 #: src/PbrDialog.vala:117
 #, c-format
 msgid "Sight-in at 100 yards: %.2f\" high"
-msgstr ""
+msgstr "Пристрелка на 100 ярдов: %.2f\" выше"
 
 #: src/PreferencesWindow.vala:68
 msgid "Choose save location"
-msgstr ""
+msgstr "Выберите место сохранения"
 
 #: src/PreferencesWindow.vala:70
 msgid "_Cancel"
-msgstr ""
+msgstr "_Отмена"
 
 #: src/PreferencesWindow.vala:71
 msgid "_Select"
-msgstr ""
+msgstr "_Выбрать"
 
 #: ui/drag.glade:64
 msgid "Name:"
-msgstr ""
+msgstr "Название:"
 
 #: ui/drag.glade:104
 msgid "Solve"
-msgstr ""
+msgstr "Вычислить"
 
 #: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
 msgid "Reset"
-msgstr ""
+msgstr "Сбросить"
 
 #: ui/drag.glade:133
 msgid "Example"
-msgstr ""
+msgstr "Пример"
 
 #: ui/drag.glade:199
 msgid "Projectile Weight (grains)"
-msgstr ""
+msgstr "Вес снаряда (граны)"
 
 #: ui/drag.glade:280
 msgid ""
@@ -317,74 +321,78 @@ msgid ""
 "180 = tailwind\n"
 "270/-90 = left to right"
 msgstr ""
+"0 = встречный ветер\n"
+"90 = справа налево\n"
+"180 = попутный ветер\n"
+"270/-90 = слева направо"
 
 #: ui/drag.glade:299 ui/pbr.glade:141
 msgid "Initial Velocity (ft/s)"
-msgstr ""
+msgstr "Начальная скорость (фут/с)"
 
 #: ui/drag.glade:311
 msgid "Zero Range (yards)"
-msgstr ""
+msgstr "Дальность пристрелки (ярды)"
 
 #: ui/drag.glade:323
 msgid "Sight Height Over Bore (in)"
-msgstr ""
+msgstr "Высота прицела над каналом ствола (дюймы)"
 
 #: ui/drag.glade:337
 msgid "Shooting Angle (deg)"
-msgstr ""
+msgstr "Угол стрельбы (градусы)"
 
 #: ui/drag.glade:349
 msgid "Wind Velocity (mph)"
-msgstr ""
+msgstr "Скорость ветра (миль/ч)"
 
 #: ui/drag.glade:361
 msgid "Wind Angle (0-360 deg)"
-msgstr ""
+msgstr "Угол ветра (0-360 градусов)"
 
 #: ui/drag.glade:373 ui/pbr.glade:153
 msgid "Drag Coefficient"
-msgstr ""
+msgstr "Коэффициент сопротивления"
 
 #: ui/drag.glade:460
 msgid "Altitude (ft)"
-msgstr ""
+msgstr "Высота (футы)"
 
 #: ui/drag.glade:472
 msgid "Temperature (F)"
-msgstr ""
+msgstr "Температура (°F)"
 
 #: ui/drag.glade:484
 msgid "Barometric Pressure (Hg)"
-msgstr ""
+msgstr "Атмосферное давление (дюймы рт. ст.)"
 
 #: ui/drag.glade:496
 msgid "Relative Humidity (%)"
-msgstr ""
+msgstr "Относительная влажность (%)"
 
 #: ui/drag.glade:619 ui/pbr.glade:219
 msgid "Drag Function"
-msgstr ""
+msgstr "Функция сопротивления"
 
 #: ui/drag.glade:690
 msgid "Step Size"
-msgstr ""
+msgstr "Длина шага"
 
 #: ui/drag.glade:702
 msgid "Export Results"
-msgstr ""
+msgstr "Экспорт результатов"
 
 #: ui/drag.glade:716
 msgid "Calculate PBR"
-msgstr ""
+msgstr "Рассчитать PBR"
 
 #: ui/drag.glade:742
 msgid "Enable Atmospheric Corrections"
-msgstr ""
+msgstr "Включить атмосферные поправки"
 
 #: ui/logviewer.glade:7
 msgid "Log Viewer"
-msgstr ""
+msgstr "Просмотр журнала"
 
 #: ui/logviewer.glade:14
 msgid "Refresh"
@@ -396,7 +404,7 @@ msgstr "Очистить"
 
 #: ui/pbr.glade:34
 msgid "Point Blank Range (PBR)"
-msgstr ""
+msgstr "Дальность прямого выстрела (PBR)"
 
 #: ui/pbr.glade:40 ui/stability.glade:213 ui/twist.glade:383
 msgid "Calculate"
@@ -404,11 +412,11 @@ msgstr "Рассчитать"
 
 #: ui/pbr.glade:117
 msgid "Vital Zone Size (inches)"
-msgstr ""
+msgstr "Размер убойной зоны (дюймы)"
 
 #: ui/pbr.glade:129
 msgid "Sight Height (inches)"
-msgstr ""
+msgstr "Высота прицела (дюймы)"
 
 #: ui/preferences.glade:33 ui/menu.ui:7
 msgid "Preferences"
@@ -420,11 +428,11 @@ msgstr "Каталоги"
 
 #: ui/preferences.glade:70
 msgid "Save Directory"
-msgstr ""
+msgstr "Каталог сохранения"
 
 #: ui/preferences.glade:91
 msgid "Browse"
-msgstr ""
+msgstr "Обзор"
 
 #: ui/stability.glade:107 ui/twist.glade:102 ui/twist.glade:249
 msgid "Diameter"
@@ -440,35 +448,35 @@ msgstr "Масса"
 
 #: ui/stability.glade:143 ui/twist.glade:285
 msgid "Safe Value"
-msgstr ""
+msgstr "Безопасное значение"
 
 #: ui/stability.glade:162
 msgid "Miller Stability"
-msgstr ""
+msgstr "Стабильность по Миллеру"
 
 #: ui/twist.glade:127
 msgid "Specific Gravity"
-msgstr ""
+msgstr "Удельный вес"
 
 #: ui/twist.glade:169
 msgid "Greenhill Twist"
-msgstr ""
+msgstr "Крутка по Гринхиллу"
 
 #: ui/twist.glade:303
 msgid "Miller Twist Rule"
-msgstr ""
+msgstr "Правило крутки Миллера"
 
 #: ui/twist.glade:355
 msgid "Greenhill"
-msgstr ""
+msgstr "Гринхилл"
 
 #: ui/twist.glade:369
 msgid "Miller"
-msgstr ""
+msgstr "Миллер"
 
 #: ui/menu.ui:11
 msgid "View Log"
-msgstr ""
+msgstr "Просмотр журнала"
 
 #: ui/menu.ui:17
 msgid "Help"
@@ -484,11 +492,11 @@ msgstr "Выход"
 
 #: data/balistica.appdata.xml.in:7 data/balistica.desktop.in:8
 msgid "balistica"
-msgstr ""
+msgstr "balistica"
 
 #: data/balistica.appdata.xml.in:8 data/balistica.desktop.in:4
 msgid "External ballistics software"
-msgstr ""
+msgstr "Программное обеспечение для внешней баллистики"
 
 #: data/balistica.appdata.xml.in:10
 msgid ""
@@ -497,31 +505,35 @@ msgid ""
 "functions (G1-G8) along with other minor ballistics related calculations "
 "like the Greenhill Formula and the Miller Twist Rule."
 msgstr ""
+"balística — это базовый калькулятор баллистики для среды рабочего стола "
+"Gnome. Он предоставляет возможность расчёта стандартных функций "
+"сопротивления (G1-G8), а также других вспомогательных баллистических "
+"расчётов, таких как формула Гринхилла и правило крутки Миллера."
 
 #: data/balistica.appdata.xml.in:16
 msgid "balística’s features include:"
-msgstr ""
+msgstr "Возможности balística включают:"
 
 #: data/balistica.appdata.xml.in:18
 msgid "Calculate a round's drag using the G1-G8 drag models"
-msgstr ""
+msgstr "Расчёт сопротивления пули по моделям G1-G8"
 
 #: data/balistica.appdata.xml.in:19
 msgid "Compute a bullet's twist rate using Greenhill or Miller"
-msgstr ""
+msgstr "Вычисление шага нарезки пули по Гринхиллу или Миллеру"
 
 #: data/balistica.appdata.xml.in:20
 msgid "Compute a round's Point Blank Range (PBR)"
-msgstr ""
+msgstr "Вычисление дальности прямого выстрела (PBR)"
 
 #: data/balistica.desktop.in:3
 msgid "balística"
-msgstr ""
+msgstr "balística"
 
 #: data/balistica.desktop.in:6
 msgid "External ballistics calculator"
-msgstr ""
+msgstr "Калькулятор внешней баллистики"
 
 #: data/balistica.desktop.in:7
 msgid "ballistics"
-msgstr ""
+msgstr "баллистика;ballistics"
