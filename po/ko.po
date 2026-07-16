@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: balistica\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
-"PO-Revision-Date: 2025-10-20 12:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-10-21 13:54+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "balistica/master/ko/>\n"
 "Language: ko\n"
@@ -22,60 +21,60 @@ msgstr ""
 
 #: src/BalisticaApplication.vala:114
 msgid "Drag"
-msgstr ""
+msgstr "항력"
 
 #: src/BalisticaApplication.vala:115
 msgid "Twist"
-msgstr ""
+msgstr "강선 회전율"
 
 #: src/BalisticaApplication.vala:116
 msgid "Stability"
-msgstr ""
+msgstr "안정성"
 
 #. The user may have already created the directory, so don't throw EXISTS.
 #: src/BalisticaApplication.vala:132
 msgid "Failed to create XDG directory "
-msgstr ""
+msgstr "XDG 디렉토리 생성에 실패함 "
 
 #: src/BalisticaApplication.vala:181
 msgid "Error showing help"
-msgstr ""
+msgstr "도움말 표시하기 오류"
 
 #: src/BalisticaApplication.vala:201
 msgid "An open source external ballistics calculator."
-msgstr ""
+msgstr "개방형 원천 외부 탄도 계산기."
 
 #: src/BalisticaApplication.vala:202
 msgid "Copyright © 2012-2018 Steven Oliver"
-msgstr ""
+msgstr "저작권 © 2012-2018 Steven Oliver"
 
 #: src/DragBox.vala:123
 msgid "Range"
-msgstr "범위"
+msgstr "사거리"
 
 #: src/DragBox.vala:124
 msgid "Drop Inches"
-msgstr ""
+msgstr "인치 내림"
 
 #: src/DragBox.vala:125
 msgid "Drop MOA"
-msgstr ""
+msgstr "분각 내림"
 
 #: src/DragBox.vala:126
 msgid "Velocity"
-msgstr ""
+msgstr "속도"
 
 #: src/DragBox.vala:127
 msgid "Energy"
-msgstr ""
+msgstr "에너지"
 
 #: src/DragBox.vala:128
 msgid "Drift"
-msgstr ""
+msgstr "이탈"
 
 #: src/DragBox.vala:129
 msgid "Windage MOA"
-msgstr ""
+msgstr "풍향 분각"
 
 #: src/DragBox.vala:130
 msgid "Time"
@@ -94,36 +93,36 @@ msgstr "시간"
 #. to be zero
 #: src/DragBox.vala:230
 msgid "Drag Coefficient must be a positive value greater than 0"
-msgstr ""
+msgstr "항력 계수는 0 보다 큰 양수이어야 합니다"
 
 #: src/DragBox.vala:235
 msgid "Initial Velocity must be a positive value greater than 0"
-msgstr ""
+msgstr "초기 속도는 0 보다 큰 양수이어야 합니다"
 
 #: src/DragBox.vala:240
 msgid "Sight Height over Bore must be a positive value greater than 0"
-msgstr ""
+msgstr "조준기와 총열 중심선의 거리는 0 보다 큰 양수이어야 합니다"
 
 #: src/DragBox.vala:245
 msgid "Projectile Weight must be a positive value greater than 0"
-msgstr ""
+msgstr "발사체 무게는 0 보다 큰 양수이어야 합니다"
 
 #: src/DragBox.vala:250
 msgid "Zero Range must be a positive value greater than 0"
-msgstr ""
+msgstr "영점 거리는 0 보다 큰 양수이어야 합니다"
 
 #: src/DragBox.vala:280
 msgid "Error creating solution results"
-msgstr ""
+msgstr "해결 결과 생성 중 오류"
 
 #: src/DragBox.vala:312
 msgid "Cannot export an empty drag solution"
-msgstr ""
+msgstr "빈 항력 해결을 내보낼 수 없습니다"
 
 #. Create a save as dialog
 #: src/DragBox.vala:317
 msgid "Save As"
-msgstr ""
+msgstr "다른 이름으로 저장"
 
 #: src/DragBox.vala:320
 msgid "Cancel"
@@ -135,137 +134,137 @@ msgstr "저장"
 
 #: src/DragBox.vala:355
 msgid "Failed to overwrite existing file"
-msgstr ""
+msgstr "기존 파일을 덮어쓰는 데 실패함"
 
 #: src/DragBox.vala:365
 msgid "Error selecting file to save as"
-msgstr ""
+msgstr "저장하려는 파일을 선택 중 오류"
 
 #: src/DragBox.vala:380
 #, c-format
 msgid "<b>Drag Coefficient:</b> %.2f"
-msgstr ""
+msgstr "<b>항력 계수:</b> %.2f"
 
 #: src/DragBox.vala:380
 #, c-format
 msgid "<b>Projectile Weight:</b> %.2f"
-msgstr ""
+msgstr "<b>발사체 무게:</b> %.2f"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Initial Velocity:</b> %.2f ft/s"
-msgstr ""
+msgstr "<b>초기 속도:</b> %.2f ft/s"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Zero Range:</b> %.2f yards"
-msgstr ""
+msgstr "<b>영점:</b> %.2f yard"
 
 #: src/DragBox.vala:382
 #, c-format
 msgid "<b>Shooting Angle:</b> %.2f degress"
-msgstr ""
+msgstr "<b>사격 각도:</b> %.2f degress"
 
 #: src/DragBox.vala:384
 #, c-format
 msgid "<b>Wind Velocity:</b> %.2f mph"
-msgstr ""
+msgstr "<b>풍속:</b> %.2f mph"
 
 #: src/DragBox.vala:384
 #, c-format
 msgid "<b>Wind Direction:</b> %.2f degress"
-msgstr ""
+msgstr "<b>풍향:</b> %.2f degress"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Altitude:</b> %.2f ft"
-msgstr ""
+msgstr "<b>고도:</b> %.2f ft"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Barometer:</b> %2f in-Hg"
-msgstr ""
+msgstr "<b>기압계:</b> %2f in-Hg"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Temperature:</b> %2f F"
-msgstr ""
+msgstr "<b>온도:</b> %2f F"
 
 #: src/DragBox.vala:386
 #, c-format
 msgid "<b>Relative Humidity:</b> %.2F%%"
-msgstr ""
+msgstr "<b>상대 습도:</b> %.2F%%"
 
 #: src/DragBox.vala:391
 msgid "<b>Range (yards)</b>"
-msgstr ""
+msgstr "<b>거리 (yards)</b>"
 
 #: src/DragBox.vala:392
 msgid "<b>Drop (inches)</b>"
-msgstr ""
+msgstr "<b>내림 (인치)</b>"
 
 #: src/DragBox.vala:393
 msgid "<b>Drop (MOA)</b>"
-msgstr ""
+msgstr "<b>내림 (분각)</b>"
 
 #: src/DragBox.vala:394
 msgid "<b>Velocity (ft/s)</b>"
-msgstr ""
+msgstr "<b>속도 (ft/s)</b>"
 
 #: src/DragBox.vala:395
 msgid "<b>Energy (ft-lb)</b>"
-msgstr ""
+msgstr "<b>에너지 (ft-lb)</b>"
 
 #: src/DragBox.vala:396
 msgid "<b>Winddrift (inches)</b>"
-msgstr ""
+msgstr "<b>풍향이탈 (인치)</b>"
 
 #: src/DragBox.vala:397
 msgid "<b>Windage (MOA)</b>"
-msgstr ""
+msgstr "<b>수평조정 (분각)</b>"
 
 #: src/DragBox.vala:398
 msgid "<b>Time (s)</b>"
-msgstr ""
+msgstr "<b>시간 (s)</b>"
 
 #: src/DragBox.vala:425
 msgid "Error creating HTML output"
-msgstr ""
+msgstr "HTML 출력 생성 중 오류"
 
 #: src/LogViewerDialog.vala:50
 msgid "Date/Time"
-msgstr "날짜와 시간"
+msgstr "날짜/시간"
 
 #: src/LogViewerDialog.vala:51
 msgid "Log Level"
-msgstr ""
+msgstr "기록 수준"
 
 #: src/LogViewerDialog.vala:52
 msgid "Message"
-msgstr ""
+msgstr "알림"
 
 #: src/LogViewerDialog.vala:111
 msgid "Reading log file "
-msgstr ""
+msgstr "기록 파일 읽는 중 "
 
 #: src/PbrDialog.vala:103
 msgid "Vital Zone size is required to calculate PBR"
-msgstr ""
+msgstr "PBR을 계산하려면 목표물 크기가 필요합니다"
 
 #: src/PbrDialog.vala:113
 #, c-format
 msgid "Near Zero: %.2f yards\n"
-msgstr ""
+msgstr "초기 영점: %.2f yards\n"
 
 #: src/PbrDialog.vala:114
 #, c-format
 msgid "Far Zero: %.2f yards\n"
-msgstr ""
+msgstr "후기 영점: %.2f yards\n"
 
 #: src/PbrDialog.vala:115
 #, c-format
 msgid "Minimum PBR: %.2f yards\n"
-msgstr ""
+msgstr "최소 PBR: %.2f yards\n"
 
 #: src/PbrDialog.vala:116
 #, c-format
@@ -273,15 +272,17 @@ msgid ""
 "Maximum PBR: %.2f yards\n"
 "\n"
 msgstr ""
+"최대 PBR: %.2f yards\n"
+"\n"
 
 #: src/PbrDialog.vala:117
 #, c-format
 msgid "Sight-in at 100 yards: %.2f\" high"
-msgstr ""
+msgstr "100 야드 거리에서 조준: %.2f\" 높음"
 
 #: src/PreferencesWindow.vala:68
 msgid "Choose save location"
-msgstr ""
+msgstr "저장 위치를 선택하세요"
 
 #: src/PreferencesWindow.vala:70
 msgid "_Cancel"
@@ -297,7 +298,7 @@ msgstr "이름:"
 
 #: ui/drag.glade:104
 msgid "Solve"
-msgstr ""
+msgstr "해결"
 
 #: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
 msgid "Reset"
@@ -305,11 +306,11 @@ msgstr "재설정"
 
 #: ui/drag.glade:133
 msgid "Example"
-msgstr "예제:"
+msgstr "예제"
 
 #: ui/drag.glade:199
 msgid "Projectile Weight (grains)"
-msgstr ""
+msgstr "발사체 무게 (그레인)"
 
 #: ui/drag.glade:280
 msgid ""
@@ -318,74 +319,78 @@ msgid ""
 "180 = tailwind\n"
 "270/-90 = left to right"
 msgstr ""
+"0 = 맞바람\n"
+"90 = 오른쪽에서 왼쪽\n"
+"180 = 뒷바람\n"
+"270/-90 = 왼쪽에서 오른쪽"
 
 #: ui/drag.glade:299 ui/pbr.glade:141
 msgid "Initial Velocity (ft/s)"
-msgstr ""
+msgstr "초기 속도 (ft/s)"
 
 #: ui/drag.glade:311
 msgid "Zero Range (yards)"
-msgstr ""
+msgstr "영점 (야드)"
 
 #: ui/drag.glade:323
 msgid "Sight Height Over Bore (in)"
-msgstr ""
+msgstr "조준기와 총열 중심선의 거리 (인치)"
 
 #: ui/drag.glade:337
 msgid "Shooting Angle (deg)"
-msgstr ""
+msgstr "사격 각도 (도)"
 
 #: ui/drag.glade:349
 msgid "Wind Velocity (mph)"
-msgstr ""
+msgstr "풍속 (mph)"
 
 #: ui/drag.glade:361
 msgid "Wind Angle (0-360 deg)"
-msgstr ""
+msgstr "풍향 (0-360 도)"
 
 #: ui/drag.glade:373 ui/pbr.glade:153
 msgid "Drag Coefficient"
-msgstr ""
+msgstr "항력 계수"
 
 #: ui/drag.glade:460
 msgid "Altitude (ft)"
-msgstr ""
+msgstr "고도 (ft)"
 
 #: ui/drag.glade:472
 msgid "Temperature (F)"
-msgstr ""
+msgstr "온도 (F)"
 
 #: ui/drag.glade:484
 msgid "Barometric Pressure (Hg)"
-msgstr ""
+msgstr "기압 (Hg)"
 
 #: ui/drag.glade:496
 msgid "Relative Humidity (%)"
-msgstr ""
+msgstr "상대 습도 (%)"
 
 #: ui/drag.glade:619 ui/pbr.glade:219
 msgid "Drag Function"
-msgstr ""
+msgstr "항력 함수"
 
 #: ui/drag.glade:690
 msgid "Step Size"
-msgstr ""
+msgstr "간격 크기"
 
 #: ui/drag.glade:702
 msgid "Export Results"
-msgstr ""
+msgstr "결과 내보내기"
 
 #: ui/drag.glade:716
 msgid "Calculate PBR"
-msgstr ""
+msgstr "PBR 계산"
 
 #: ui/drag.glade:742
 msgid "Enable Atmospheric Corrections"
-msgstr ""
+msgstr "대기 보정 활성화"
 
 #: ui/logviewer.glade:7
 msgid "Log Viewer"
-msgstr ""
+msgstr "기록 표시기"
 
 #: ui/logviewer.glade:14
 msgid "Refresh"
@@ -393,23 +398,23 @@ msgstr "새로고침"
 
 #: ui/logviewer.glade:23
 msgid "Clear"
-msgstr "비우기"
+msgstr "지우기"
 
 #: ui/pbr.glade:34
 msgid "Point Blank Range (PBR)"
-msgstr ""
+msgstr "근거리 사거리 (PBR)"
 
 #: ui/pbr.glade:40 ui/stability.glade:213 ui/twist.glade:383
 msgid "Calculate"
-msgstr ""
+msgstr "계산"
 
 #: ui/pbr.glade:117
 msgid "Vital Zone Size (inches)"
-msgstr ""
+msgstr "목표물 크기 (인치)"
 
 #: ui/pbr.glade:129
 msgid "Sight Height (inches)"
-msgstr ""
+msgstr "시야 높이 (인치)"
 
 #: ui/preferences.glade:33 ui/menu.ui:7
 msgid "Preferences"
@@ -417,11 +422,11 @@ msgstr "환경설정"
 
 #: ui/preferences.glade:54
 msgid "Directories"
-msgstr ""
+msgstr "디렉토리"
 
 #: ui/preferences.glade:70
 msgid "Save Directory"
-msgstr ""
+msgstr "저장 디렉토리"
 
 #: ui/preferences.glade:91
 msgid "Browse"
@@ -429,47 +434,47 @@ msgstr "검색"
 
 #: ui/stability.glade:107 ui/twist.glade:102 ui/twist.glade:249
 msgid "Diameter"
-msgstr ""
+msgstr "직경"
 
 #: ui/stability.glade:119 ui/twist.glade:115 ui/twist.glade:261
 msgid "Length"
-msgstr ""
+msgstr "길이"
 
 #: ui/stability.glade:131 ui/twist.glade:273
 msgid "Mass"
-msgstr ""
+msgstr "질량"
 
 #: ui/stability.glade:143 ui/twist.glade:285
 msgid "Safe Value"
-msgstr ""
+msgstr "안전 계수"
 
 #: ui/stability.glade:162
 msgid "Miller Stability"
-msgstr ""
+msgstr "밀러 안정성"
 
 #: ui/twist.glade:127
 msgid "Specific Gravity"
-msgstr ""
+msgstr "비중"
 
 #: ui/twist.glade:169
 msgid "Greenhill Twist"
-msgstr ""
+msgstr "그린힐 트위스트"
 
 #: ui/twist.glade:303
 msgid "Miller Twist Rule"
-msgstr ""
+msgstr "밀러 강선 규칙"
 
 #: ui/twist.glade:355
 msgid "Greenhill"
-msgstr ""
+msgstr "그린힐"
 
 #: ui/twist.glade:369
 msgid "Miller"
-msgstr ""
+msgstr "밀러"
 
 #: ui/menu.ui:11
 msgid "View Log"
-msgstr ""
+msgstr "기록 보기"
 
 #: ui/menu.ui:17
 msgid "Help"
@@ -485,11 +490,11 @@ msgstr "종료"
 
 #: data/balistica.appdata.xml.in:7 data/balistica.desktop.in:8
 msgid "balistica"
-msgstr ""
+msgstr "탄도학"
 
 #: data/balistica.appdata.xml.in:8 data/balistica.desktop.in:4
 msgid "External ballistics software"
-msgstr ""
+msgstr "외부 탄도 소프트웨어"
 
 #: data/balistica.appdata.xml.in:10
 msgid ""
@@ -498,31 +503,34 @@ msgid ""
 "functions (G1-G8) along with other minor ballistics related calculations "
 "like the Greenhill Formula and the Miller Twist Rule."
 msgstr ""
+"balística 는 그놈 데스크탑을 위한 기초 탄도 계산기입니다. 이는 그린힐 공식 및"
+" 밀러 강선 규칙과 같은 기타 사소한 탄도학과 연관된 계산과 함께 표준 항력 함수"
+"(G1-G8)를 계산하는 기능을 제공합니다."
 
 #: data/balistica.appdata.xml.in:16
 msgid "balística’s features include:"
-msgstr ""
+msgstr "balística’ 특징은 다음을 포함합니다:"
 
 #: data/balistica.appdata.xml.in:18
 msgid "Calculate a round's drag using the G1-G8 drag models"
-msgstr ""
+msgstr "G1-G8 항력 모델을 사용하여 총알의 항력을 계산합니다"
 
 #: data/balistica.appdata.xml.in:19
 msgid "Compute a bullet's twist rate using Greenhill or Miller"
-msgstr ""
+msgstr "그린힐 또는 밀러를 사용하여 탄환의 강선률을 계산합니다"
 
 #: data/balistica.appdata.xml.in:20
 msgid "Compute a round's Point Blank Range (PBR)"
-msgstr ""
+msgstr "총알의 근거리 사거리 (PBR) 를 계산합니다"
 
 #: data/balistica.desktop.in:3
 msgid "balística"
-msgstr ""
+msgstr "balística"
 
 #: data/balistica.desktop.in:6
 msgid "External ballistics calculator"
-msgstr ""
+msgstr "외부 탄도 계산기"
 
 #: data/balistica.desktop.in:7
 msgid "ballistics"
-msgstr ""
+msgstr "탄도학"
